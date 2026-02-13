@@ -44,8 +44,8 @@
 			   var t1 = conversion(t, u);;
 			   var u1 = (u == "F") ? "Fahrenheit" : (u == "K") ? "Kelvin" : "Réaumur";
 
-			    alert("Temperature is "+t1+" in "+u1);
-			});
+			    $('#result').html("Temperature is " + t1 + " in " + u1); 
+            });
 			   
 			function conversion(t,u) {
 				var result;
